@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google Advanced Search</title>
+        <link rel="stylesheet" href="styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <img src="Images/google images.png" class="advancedsearchlogo">
+        <a href="project0.html" style="margin-left:800px;">Google Search</a>
+        <div class="labeladvancedsearch">
+            <label>Advanced Search</label>
+        </div>
+        <hr class="horizontalline">
+        <form class="advancedform" action="https://google.com/search">
+            <div class="findpagelabel">
+                <label>Find pages with...</label> 
+                <label class="statictext">To do this in the search box.</label> 
+            </div>
+            <div class="label-input">
+                <label>all these words:</label>
+                <input class="textboxallwords" type="text" name="as_q" >  
+                <h5 style="margin-top: -20px; margin-left: 760px;"> Type the important words: tri-colour rat terrier</h5>
+                
+            </div>
+            <div class="label-input">
+                <label>this exact word or phrase:</label>
+                <input class="textboxexactwords" type="text" name="as_epq" >
+                <h5 style="margin-top: -20px; margin-left: 760px;"> Put exact words in quotes: "rat terrier"</h5>
+            </div>
+            <div class="label-input">
+                <label>any of these words:</label>
+                <input class="textboxanyword" type="text" name="as_oq" >
+                <h5 style="margin-top: -20px; margin-left: 760px;"> Type OR between all the words you want: miniature OR standard</h5>
+            </div>
+            <div class="label-input">
+                <label>none of these words:</label>
+                <input class="textboxnoword" type="text" name="as_eq" >
+                <h5 style="margin-top: -30px; margin-left: 760px;"> Put a minus sign just before words that you don't want:"</h5>
+                <h5 style="margin-top: -15px; margin-left: 760px;">-rodent, -"Jack Russell</h5>
+            </div>
+            <div class="label-input">
+                <label>numbers ranging from:</label>
+                <input class="textboxmin" type="text" name="as_nlo" > to <input class="textboxmax" type="text" name="as_nhi">
+                <h5 style="margin-top: -30px; margin-left: 760px;">Put two full stops between the numbers and add a unit of measurement:</h5>
+                <h5 style="margin-top: -15px; margin-left: 760px;">10..35 kg, £300..£500, 2010..2011</h5>
+            </div>
+            <button class="advancedbutton" value="Advanced Search" type="submit">Advanced Search</button>
+        </form>
+        
+        
+    </body>
+</html>

@@ -1,0 +1,202 @@
+.image{
+    align-items: center;
+    margin-left: 510px;
+    margin-top: 100px;
+}
+
+.form{
+    margin-top:20px;
+    align-items:center;
+    margin-left:350px
+}
+
+#searchtextbox{
+    border-radius: 3rem;
+    border-color:gray;
+    border-width: thin;
+    width: 600px;
+    height:20px;
+    padding: 20px;
+    outline: #4487f6;
+    font-size:18px;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+
+#searchtextbox:hover{
+    border-color:darkgray
+}
+
+.btngooglesearch{
+    margin-top:30px;
+    margin-left:175px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.btnfeelinglucky{
+    margin-top:-38px;
+    margin-left:305px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+button{
+    padding:10px;
+    border:0.25px solid #e7e7e7;
+    background-color: rgb(248, 245, 245);
+    border-radius: 0.25rem;
+    color:#3c4043;
+    font-size:14px;
+}
+button:hover{
+    border-color:rgb(79, 85, 92)
+}
+.links{
+    margin-left:900px;
+    margin-top:20px; 
+}
+a{
+    color:black;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:14px;
+}
+a:hover{
+    text-decoration: underline;
+}
+#srchadvanced{
+    padding-left: 20px;
+}
+.txtimage{
+    align-items: center;
+    margin-left: 725px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:18px;
+    margin-top:-25px;
+    color:#4487f6;
+    font-weight: bold;
+}
+.imagesearchbtn{
+    margin-top:30px;
+    margin-left:240px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.advancedsearchlogo{
+    margin-top:20px;
+    margin-left: 10px;
+    width:70px;
+}
+.labeladvancedsearch{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #d93025;;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-bottom:20px;
+}
+hr.horizontalline{
+    background-color:rgb(248,245,245);
+    border-width: 0.25px;
+}
+.advancedform{
+    margin-top: 40px;
+    margin-left:40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.textbox{
+    
+    width: 500px;
+    height: 15px;
+    overflow: hidden;
+    padding: 0 .625em;
+}
+.findpagelabel{
+    margin-bottom: 30px;
+}
+.label-input{
+    margin-top: 20px;
+    font-size: 13px;
+
+}
+.textboxallwords{
+    margin-left: 88px;
+    width: 550px;
+    height: 20px;
+    border-color:#c0c0c0;
+    border-width: 0.25px;
+}
+.textboxexactwords{
+    margin-left: 30px;
+    width: 550px;
+    height: 20px;
+    border-color:#c0c0c0;
+    border-width: 0.25px;
+}
+.textboxanyword{
+    margin-left: 65px;
+    width: 550px;
+    height: 20px;
+    border-color:#c0c0c0;
+    border-width: 0.25px;
+}
+.textboxnoword{
+    margin-left: 57px;
+    width: 550px;
+    height: 20px;
+    border-color:#c0c0c0;
+    border-width: 0.25px;
+}
+.textboxmin{
+    margin-left: 45px;
+    height: 20px;
+    width:240px;
+    margin-right: 23px;
+    border-color:#c0c0c0;
+    border-width: 0.25px;
+}
+.textboxmax{
+    height: 20px;
+    width:240px;
+    margin-left:23px;
+    border-color:#c0c0c0;
+    border-width: 0.25px;
+}
+ .textboxmax :focus,.textboxmin:focus,.textboxnoword:focus,.textboxanyword:focus,.textboxexactwords:focus,.textboxallwords:focus{ 
+ border: 0.25px solid #4487f6;
+ outline: #4487f6;
+}
+.statictext{
+    margin-left: 610px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #636161;
+    
+}
+h5{
+    color: #636161;
+}
+
+.advancedbutton{
+    background-color:#4487f6;
+    margin-top: 20px;
+    margin-left:625px;
+    color:white;
+    font-size: 12px;
+}
+@media all and (max-width:600px)
+{
+    .links{
+        margin-left:300px;
+        margin-top:20px; 
+    }
+    .image{
+        display: inlin;
+    }
+
+    #searchtextbox{
+        margin-left:0px;
+        width: 300px;
+    }
+    .form{
+        display: inline-block;
+    }
+
+}
